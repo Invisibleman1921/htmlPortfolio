@@ -37,11 +37,11 @@ main em {
   text-align: right;
 }
 .imageContainer {
-  float: left;
-  width: 620px;
+  float: center;
+  width: 420px;
 }
 img {
-  width: 100%;
+  width: 50%;
 }
 li {
   font-family: 'Lato', sans-serif;
