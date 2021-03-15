@@ -1,7 +1,9 @@
 body {
   min-width: 350px;
 }
-
+/*
+Changing the header to my more favorite color: burgendy.
+*/
 header {
   background-color: #800020;
   padding: 0 10%;
@@ -47,4 +49,20 @@ li {
   font-family: 'Lato', sans-serif;
   font-size: 22px;
   color: #51473b;
+}
+/**/
+a:link{
+  color:  #FF0000;
+}
+/**/
+a:visited {
+  color:  #FF0000;
+}
+/**/
+a:hover {
+  color: #FF00FF;
+}
+/**/
+a:active{
+  color: #0000FF;
 }
