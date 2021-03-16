@@ -8,61 +8,67 @@ header {
   background-color: #800020;
   padding: 0 10%;
 }
-
+/*CSS code to have the header and h1 objects to have a white color text, a 60 pixel top by 20 pixel left padding, and no margin.*/
 header h1 {
   color: white;
   padding: 60px 0 20px 0px;
   margin: 0;
 }
-
+/*CSS code to have the materials in the main body to have a 20 piel with 10% padding.*/
 main {
   padding: 20px 10%;
 }
-
+/*CSS code to have the objects in the navigation menu to have a right-align rule.*/
 nav {
   text-align: right;
 }
-
+/*CSS code to have the backgound color of the footer be a hazezlnut color,
+have a 140 px margin to the top,
+and a 10 pixel with 10% padding.*/
 footer {
-  background-color: darkgray;
+  background-color: #ae9f80;
   margin: 140px 0 0 0;
   padding: 10px 10%;
 }
-
+/*CSS code to have elements with a normal font-style, and have be bold.*/
 em {
   font-style: normal;
   font-weight: bold;
 }
-
+/*CSS code to have the main element have a block display, and have a right-align text.*/
 main em {
   display: block;
   text-align: right;
-}
+} 
+/*CSS code for the image container to have appear in the middle of it's contaier, with a width of 420 pixels.*/
 .imageContainer {
   float: center;
-  width: 420px;
+  width: 420 px;
 }
+/*CSS code to have the image be 100 pizels.*/
 img {
   height: 100px;
 }
+/*CSS code for all list elements to be Lato and sans-serif in style,
+be 22 pizels in size, and be a darkish gray color.*/
 li {
   font-family: 'Lato', sans-serif;
   font-size: 22px;
   color: #51473b;
 }
-/**/
+/*CSS code for the button element to appear blue.*/
 a:link{
   color:  #FF0000;
 }
-/**/
+/*CSS code for the element to aooear blye when visited.*/
 a:visited {
   color:  #FF0000;
 }
-/**/
+/*CSS code for the button element to appear magenta when hovered.*/
 a:hover {
   color: #FF00FF;
 }
-/**/
+/*CSS hex code to appear red when button element is active.*/
 a:active{
   color: #0000FF;
 }
